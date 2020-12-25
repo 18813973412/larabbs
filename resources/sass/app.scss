@@ -22,7 +22,7 @@ body {
   margin-bottom: 40px;
   margin-top: 0px; }
 
-  /* Sticky footer styles */
+/* Sticky footer styles */
 html {
   position: relative;
   min-height: 100%; }
@@ -46,3 +46,10 @@ body {
                               }
                             }
                           } }
+.register-page {
+  img.captcha {
+    cursor: pointer;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 3px;
+  } }
