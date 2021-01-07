@@ -19,6 +19,7 @@ class TopicObserver
         // 生成话题摘录
         $topic->excerpt = make_excerpt($topic->body);
 
+
     }
 
     public function saved(Topic $topic)
