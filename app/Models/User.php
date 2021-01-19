@@ -17,6 +17,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
     }
 
     use HasRoles;
+    use Traits\ActiveUserHelper;
 
     //模型属性修改器
     public function setPasswordAttribute($value)
